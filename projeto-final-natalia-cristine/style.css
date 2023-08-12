@@ -1,0 +1,147 @@
+@font-face {
+    font-family: njnaruto;
+    src: url(njnaruto.ttf);
+}
+
+@font-face {
+  font-family: pergunta;
+  src: url(Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: game;
+  src: url(SnakeGameDemoRegular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin,;
+  font-size: larger 25px;
+  
+}
+
+body{
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+body{
+  font-family:njnaruto;
+  background-image: url(narutoclasssico.jpg);
+  color: rgb(250, 232, 232);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+body h2 {
+  color: orangered;
+  font-family: njnaruto;
+  font-size: 70px;
+}
+
+main {
+  background-color: rgb(255, 136, 0, 0.5);
+  padding: 60px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.spnQtd {
+  text-align: center;
+  font-family: game;
+  text-align: center;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.781); text-shadow: black 0.1em 0.1em 0.2em;
+  
+  
+  
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-align: justify;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
+
+span{
+  font-family: pergunta; 
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+button {
+  color: white;
+  background: rgb(0, 0, 0);
+  transition: transform 1s;
+  transform: translateX(10) scale(0.5);
+}
+
+button:hover,
+button:focus {
+  background: rgb(28, 155, 12);
+  transform: translateX(10px) scale(1.2);
+}
+
+
+main{
+  color: white;
+  background: rgba(138, 199, 248, 0.5);
+  transition: background 1s;
+}
+
+main:hover,
+main:focus {
+  background: rgb(255, 115, 0, 0.7);
+}
+
+h2{
+  text-shadow: 0.1em 0.1em 0.05em rgb(77, 77, 187, 0.9);
+
+}
